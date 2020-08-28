@@ -1,9 +1,9 @@
 # Customer-Churn
 
-##Introduction      
+## Introduction      
 Every company wants to increase its revenue and profitability. To do that, while they acquire new customers, they also want to make sure that the existing ones stay with them for a long term. Also, its strategically important to know beforehand whether a set of customers are planning to stop using their services (especially recurring ones like internet, cable, phone etc.). To do that, every company or business creates and tracks customer metrics which are then used to predict their likelihood of churn. In this project, we will use the customer data of a telecom sector company to predict the probability of churn for each of the customer.    
 
-##Attributes:   
+## Attributes:   
 •	state: the state the user lives in   
 •	account length: the number of days the user has this account   
 •	area code: the code of the area the user lives in   
@@ -26,7 +26,7 @@ Every company wants to increase its revenue and profitability. To do that, while
 •	customer service calls: number of customer service calls the user has done     
 •	churn: true if the user terminated the contract, otherwise false    
 
-##ML algorithms used:      
+## ML algorithms used:      
 •	Logistic Regression      
 •	Decision trees      
 •	C5.0     
@@ -35,5 +35,5 @@ Every company wants to increase its revenue and profitability. To do that, while
 Caret package in R is a comprehensive framework for building machine learning models.Using the caret package the above mentioned algorithms were trained on the dataset and compared with respect to accuracy and kappa statistic to determine the best model.       
 Refer to Customer churn.md for detailed analysis.     
 
-##Conclusion:      
+## Conclusion:      
 C5.0 model is selected as final prediction model as it has the highest accuracy and kappa statistic as well as the least standard deviation across cross-validation sample indicating low variance.      
