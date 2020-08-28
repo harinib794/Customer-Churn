@@ -26,7 +26,7 @@ Every company wants to increase its revenue and profitability. To do that, while
 •	customer service calls: number of customer service calls the user has done     
 •	churn: true if the user terminated the contract, otherwise false    
 
-## ML algorithms used:      
+## ML algorithms:      
 •	Logistic Regression      
 •	Decision trees      
 •	C5.0     
