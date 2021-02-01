@@ -36,4 +36,4 @@ Caret package in R is a comprehensive framework for building machine learning mo
 Refer to Customer churn.md for detailed analysis.     
 
 ## Conclusion:      
-C5.0 model is selected as final prediction model as it has the highest accuracy and kappa statistic as well as the least standard deviation across cross-validation sample indicating low variance.      
+C5.0 model is selected as final prediction model as it has the highest accuracy and kappa statistic as well as the least standard deviation across cross-validation sample indicating that it has low variance and will generalize well with new data.      
